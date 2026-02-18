@@ -1,0 +1,26 @@
+/*দুটি সংখ্যা এর মধ্যে বড়টি বের করার জন্য প্রোগ্রাম লিখ।*/
+
+
+
+#include<stdio.h>
+
+
+int main(){
+
+    int a,b;
+    scanf("%d %d",&a,&b);
+
+    if(a>b){
+        printf("%d is greater than %d", a,b);
+    }
+    else{
+        printf("%d is greater than %d",b,a);
+    }
+
+
+    return 0;
+
+
+
+
+}
